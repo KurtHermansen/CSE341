@@ -16,7 +16,7 @@ const getSingle = async (req, res, next) => {
     .getDb()
     .db('rest-week2')
     .collection('contacts')
-    .find({ _id: ObjectId });
+    .find({ _id: userId});
   result.toArray().then((lists) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists[0]);
