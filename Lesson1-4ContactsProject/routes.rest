@@ -4,11 +4,11 @@ GET http://localhost:8080
 ###
 GET http://localhost:8080/contacts
 ###
-GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd96
+GET http://localhost:8080/contacts/626c297790aed864ea14bd9d
 ###
-GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd97
+GET http://localhost:8080/contacts/626c297790aed864ea14bd9e
 ###
-GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd98
+GET http://localhost:8080/contacts/626c297790aed864ea14bd9f
 
 
 /// HEROKU
@@ -16,3 +16,9 @@ GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd98
 GET https://cse-341-khermansen.herokuapp.com/
 ###
 GET https://cse-341-khermansen.herokuapp.com/contacts
+###
+GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9d
+###
+GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9e
+###
+GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bda1
