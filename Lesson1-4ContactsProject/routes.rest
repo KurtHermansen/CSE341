@@ -14,3 +14,5 @@ GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd98
 /// HEROKU
 ###
 GET https://cse-341-khermansen.herokuapp.com/
+###
+GET https://cse-341-khermansen.herokuapp.com/contacts
