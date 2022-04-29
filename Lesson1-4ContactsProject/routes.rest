@@ -1,0 +1,16 @@
+// LOCAL HOST
+###
+GET http://localhost:8080
+###
+GET http://localhost:8080/contacts
+###
+GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd96
+###
+GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd97
+###
+GET http://localhost:8080/contacts/626c1a5f90aed864ea14bd98
+
+
+/// HEROKU
+###
+GET https://cse-341-khermansen.herokuapp.com/
