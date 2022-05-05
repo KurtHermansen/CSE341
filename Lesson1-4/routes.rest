@@ -55,6 +55,40 @@ GET https://cse-341-khermansen.herokuapp.com/contacts
 ###
 GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9d
 ###
-GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9e
+POST https://cse-341-khermansen.herokuapp.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Haze",
+    "lastName": "Hermansen",
+    "email": "futureson@test.com",
+    "favoriteColor": "Green",
+    "birthday": "06/16/24"
+}
+
 ###
-GET https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bda1
+PUT https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9d HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Haze",
+    "lastName": "Hermansen",
+    "email": "futureson@test.com",
+    "favoriteColor": "Green",
+    "birthday": "06/16/24"
+}
+
+###
+PUT https://cse-341-khermansen.herokuapp.com/contacts/626c297790aed864ea14bd9d HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Brianna",
+    "lastName": "Hermansen",
+    "email": "amazingwoman@test.com",
+    "favoriteColor": "yellow",
+    "birthday": "06/16/90"
+}
+
+###
+DELETE https://cse-341-khermansen.herokuapp.com/contacts/627429266b2ca850c03f0f8b
