@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD MongoDB</title>
+</head>
+<body>
+    <h1>This form manipulates data in MongodB</h1>
+    <form method="POST" action="/quotes">
+        <fieldset>
+            <legend>
+                <h2>Insert Quote</h2>
+            </legend>
+            <label class="authorLB" for="author">Who said the Quote: 
+                <input type="text" name="author" id="authorName">
+            </label>
+            <label class="quoteLB" for="quote">What did they say? 
+                <input type="text" name="quote" id="authorQuote">
+            </label>
+            <button id="insertBTN" type="submit">Send Quote</button>
+        </fieldset>
+    </form>
+    <form method="POST" action="/quotesU">
+        <fieldset>
+            <legend>
+                <h2>Update Quote</h2>
+            </legend>
+            <label class="authorLB" for="authorU">Who said the Quote: 
+                <input type="text" name="authorU" id="authorNameU">
+            </label>
+            <label class="quoteLB" for="quoteU">What did they say? 
+                <input type="text" name="quoteU" id="authorQuoteU">
+            </label>
+            <button id="updateBTN" type="submit">Update Quote</button>
+        </fieldset>
+    </form>
+    <form method="POST" action="/quotesD">
+        <fieldset>
+            <legend>
+                <h2>Delete Quote</h2>
+            </legend>
+            <label class="authorLB" for="authorD">Who said the Quote: 
+                <input type="text" name="authorD" id="authorNameD">
+            </label>
+            <label class="quoteLB" for="quoteD">What did they say? 
+                <input type="text" name="quoteD" id="authorQuoteD">
+            </label>
+            <button id="deleteBTN" type="submit">Delete Quote</button>
+        </fieldset>
+    </form>
+    
+    
+</body>
+</html>
