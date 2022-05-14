@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc"
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc",
+    "swagger": "node ./swagger.js"
   },
   "repository": {
     "type": "git",
@@ -26,13 +27,15 @@
     "express": "^4.17.3",
     "mongodb": "^4.5.0",
     "mongoose": "^6.3.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "swagger-ui-express": "^4.4.0"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.16",
+    "swagger-autogen": "^2.21.1",
     "prettier": "^2.6.2"
   }
 }
